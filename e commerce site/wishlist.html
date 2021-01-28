@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my own style -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>E store - eCommerce</title>
+  </head>
+  <body>
+    <!-- bredcrumb -->
+
+    <ul class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li>Cart</li>
+    </ul>
+
+    <!-- end of breadcrumb -->
+
+    <!-- Start Product cart table grid  -->
+    <section class="cart">
+      <div class="cartbox-wrapper">
+        <div class="cartbox">
+          <table class="table">
+            <col style="width: 30%" />
+            <col style="width: 10%" />
+            <col style="width: 20%" />
+            <col style="width: 20%" />
+            <col style="width: 20%" />
+            <thead class="thead">
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Add to Cart</th>
+                <th>Remove</th>
+              </tr>
+            </thead>
+            <tbody class="align-middle">
+              <tr>
+                <td>
+                  <div class="img">
+                    <a href="#"><img src="img/product-6.jpg" alt="Image" /></a>
+                    <p>Product Name</p>
+                  </div>
+                </td>
+                <td>$99</td>
+                <td>
+                  <div class="qty">
+                    <button class="btn-minus">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                    <input type="text" value="1" />
+                    <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                  </div>
+                </td>
+                <td><button class="btn-cart">Add to Cart</button></td>
+                <td>
+                  <button><i class="fa fa-trash"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="img">
+                    <a href="#"><img src="img/product-7.jpg" alt="Image" /></a>
+                    <p>Product Name</p>
+                  </div>
+                </td>
+                <td>$99</td>
+                <td>
+                  <div class="qty">
+                    <button class="btn-minus">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                    <input type="text" value="1" />
+                    <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                  </div>
+                </td>
+                <td><button class="btn-cart">Add to Cart</button></td>
+                <td>
+                  <button><i class="fa fa-trash"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="img">
+                    <a href="#"><img src="img/product-8.jpg" alt="Image" /></a>
+                    <p>Product Name</p>
+                  </div>
+                </td>
+                <td>$99</td>
+                <td>
+                  <div class="qty">
+                    <button class="btn-minus">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                    <input type="text" value="1" />
+                    <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                  </div>
+                </td>
+                <td><button class="btn-cart">Add to Cart</button></td>
+                <td>
+                  <button><i class="fa fa-trash"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="img">
+                    <a href="#"><img src="img/product-9.jpg" alt="Image" /></a>
+                    <p>Product Name</p>
+                  </div>
+                </td>
+                <td>$99</td>
+                <td>
+                  <div class="qty">
+                    <button class="btn-minus">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                    <input type="text" value="1" />
+                    <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                  </div>
+                </td>
+                <td><button class="btn-cart">Add to Cart</button></td>
+                <td>
+                  <button><i class="fa fa-trash"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="img">
+                    <a href="#"><img src="img/product-10.jpg" alt="Image" /></a>
+                    <p>Product Name</p>
+                  </div>
+                </td>
+                <td>$99</td>
+                <td>
+                  <div class="qty">
+                    <button class="btn-minus">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                    <input type="text" value="1" />
+                    <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                  </div>
+                </td>
+                <td><button class="btn-cart">Add to Cart</button></td>
+                <td>
+                  <button><i class="fa fa-trash"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <p>
+          <input type="text" placeholder="Coupon Code" />
+          <button>Apply Code</button>
+        </p>
+        <div class="cart-content">
+          <h1>Cart Summary</h1>
+          <p>Sub Total<span>$99</span></p>
+          <p>Shipping Cost<span>$1</span></p>
+          <h2>Grand Total<span>$100</span></h2>
+        </div>
+        <div class="cart-btn">
+          <button>Update Cart</button>
+          <button>Checkout</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Product cart table grid  -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="footer-part1">
+        <div class="box">
+          <h1>Get in Touch</h1>
+          <ul class="card-address">
+            <li>
+              <i class="fas fa-map-marker"></i>123 Office, Los Angeles, CA, USA
+            </li>
+            <li><i class="fas fa-envelope"></i>store@example.com</li>
+            <li><i class="fas fa-envelope"></i>+8801904599705</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h1>Follow Us</h1>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h1>Company Info</h1>
+          <ul class="card-address">
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Condition</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h1>Purchase Info</h1>
+          <ul class="card-address">
+            <li>Payment Policy</li>
+            <li>Shipping Policy</li>
+            <li>Return Policy</li>
+          </ul>
+        </div>
+        <div class="footer-part2"></div>
+      </div>
+      <div class="payment">
+        <div class="payment-method">
+          <h2>We Accept:</h2>
+          <img src="img/payment-method.png" alt="Payment Method" />
+        </div>
+
+        <div class="payment-security">
+          <h2>Secured By:</h2>
+          <img src="img/godaddy.svg" alt="Payment Security" />
+          <img src="img/norton.svg" alt="Payment Security" />
+          <img src="img/ssl.svg" alt="Payment Security" />
+        </div>
+      </div>
+
+      <!-- Footer Bottom Start -->
+      <div class="footer-bottom">
+        <div class="copyright">
+          <p>
+            Copyright &copy; <a href="#">HTML Codex</a>. All Rights Reserved
+          </p>
+        </div>
+
+        <div class="copyright">
+          <p>Template By <a href="#">HTML Codex</a></p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom End -->
+    </footer>
+  </body>
+</html>
